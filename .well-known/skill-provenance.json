@@ -1,0 +1,9 @@
+{
+  "network_behavior": "none",
+  "origin_id": "f2c3c938-6a8d-4b20-bc48-bd45f7b6e47f",
+  "prompt_neutral": true,
+  "publisher_public_key_sha256": "d64d7ebc963fdaa86a44573bd226e8bb135d9d95818c5f39df88e0a45e886596",
+  "record_type": "skill-publisher-origin",
+  "schema_version": "1.0",
+  "skill_name": "design-patent-search-and-design-around"
+}

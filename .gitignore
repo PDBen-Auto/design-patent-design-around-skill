@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+*.key
+*.p12
+*.pfx
+publisher-private.pem
+outputs/
