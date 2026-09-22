@@ -1,5 +1,12 @@
 # Design Patent Search And Design Around Skill
 
+[English](README.en.md)
+
+[![Release](https://img.shields.io/github/v/release/PDBen-Auto/design-patent-design-around-skill?display_name=tag&style=flat-square)](https://github.com/PDBen-Auto/design-patent-design-around-skill/releases/latest)
+[![Validation](https://img.shields.io/github/actions/workflow/status/PDBen-Auto/design-patent-design-around-skill/validate.yml?branch=main&style=flat-square&label=validation)](https://github.com/PDBen-Auto/design-patent-design-around-skill/actions/workflows/validate.yml)
+[![skills.sh](https://skills.sh/b/PDBen-Auto/design-patent-design-around-skill)](https://skills.sh/PDBen-Auto/design-patent-design-around-skill/design-patent-search-and-design-around)
+[![License](https://img.shields.io/badge/license-source--available-59636e?style=flat-square)](LICENSE)
+
 面向实体产品团队的外观专利预筛与设计规避 Skill。
 
 它不只告诉你“有哪些相似专利”，而是把产品图片、完整专利图纸、权利人线索、供应链证据、设计方案和样品验证连接成一条可复核的决策链：
@@ -53,6 +60,14 @@ flowchart LR
 ```
 
 ## 安装
+
+### 一条命令安装
+
+```bash
+npx skills add PDBen-Auto/design-patent-design-around-skill --skill design-patent-search-and-design-around
+```
+
+也可以从 [GitHub Releases](https://github.com/PDBen-Auto/design-patent-design-around-skill/releases/latest) 下载可安装 ZIP。
 
 将此目录复制到 Codex 的用户 Skill 目录：
 
@@ -167,3 +182,13 @@ python C:\Users\SYZ\.codex\skills\.system\skill-creator\scripts\quick_validate.p
 ## License
 
 当前公开包附带 `LICENSE`，默认是保留所有权利的 source-available 发布。若你希望允许社区修改和再发布，请在首次公开前替换成明确的开源许可证，并同步更新 README。
+
+## Search terms
+
+`design patent search`, `design around`, `industrial design clearance`, `design patent risk`, `product IP due diligence`, `design patent pre-screening`, `visual scope comparison`, `supplier due diligence`, `prototype validation`, `外观专利检索`, `设计规避`, `工业设计风险`, `产品知识产权尽调`。
+
+## Related PDBen-Auto Skills
+
+- [Amazon Review Intelligence](https://github.com/PDBen-Auto/amazon-review-intelligence-skill) — Amazon review collection, evidence delivery, and VOC analysis.
+- [SellerSprite Amazon Market Research BI](https://github.com/PDBen-Auto/sellersprite-amazon-market-research-bi-skill) — keyword-to-ASIN discovery and auditable category BI.
+- [Amazon Product Decision Gateway](https://github.com/PDBen-Auto/amazon-product-decision-suite) — cross-functional product validation and Go/No-Go handoff.

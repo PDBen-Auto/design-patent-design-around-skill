@@ -1,0 +1,40 @@
+name: Publish installable skill release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate package
+        run: python tests/test_skill_structure.py
+      - name: Package installable skill
+        shell: bash
+        run: |
+          mkdir -p dist/design-patent-search-and-design-around
+          cp -r SKILL.md agents references LICENSE .well-known PUBLISHER_PUBLIC_KEY.pem PUBLIC_MANIFEST.sha256 RELEASE_PROVENANCE.json RELEASE_PROVENANCE.sig dist/design-patent-search-and-design-around/
+          cd dist
+          zip -r design-patent-design-around-skill.zip design-patent-search-and-design-around
+          sha256sum design-patent-design-around-skill.zip > design-patent-design-around-skill.zip.sha256
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          gh release create "${{ github.ref_name }}"
+          dist/design-patent-design-around-skill.zip
+          dist/design-patent-design-around-skill.zip.sha256
+          --repo "${{ github.repository }}"
+          --title "Design Patent Search And Design Around Skill ${{ github.ref_name }}"
+          --generate-notes
