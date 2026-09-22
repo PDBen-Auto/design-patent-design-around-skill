@@ -26,7 +26,18 @@ jobs:
         shell: bash
         run: |
           mkdir -p dist/design-patent-search-and-design-around
-          cp -r SKILL.md agents references LICENSE .well-known PUBLISHER_PUBLIC_KEY.pem PUBLIC_MANIFEST.sha256 RELEASE_PROVENANCE.json RELEASE_PROVENANCE.sig dist/design-patent-search-and-design-around/
+          git archive --format=tar "${GITHUB_SHA}" | tar -x -C dist/design-patent-search-and-design-around
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path("dist/design-patent-search-and-design-around")
+          manifest = (root / "PUBLIC_MANIFEST.sha256").read_text(encoding="utf-8")
+          payload = json.loads((root / "RELEASE_PROVENANCE.json").read_text(encoding="utf-8"))
+          assert hashlib.sha256(manifest.encode()).hexdigest() == payload["manifest_sha256"]
+          for line in manifest.splitlines():
+              digest, relative = line.split("  ", 1)
+              assert hashlib.sha256((root / relative).read_bytes()).hexdigest() == digest, relative
+          PY
           cd dist
           zip -r design-patent-design-around-skill.zip design-patent-search-and-design-around
           sha256sum design-patent-design-around-skill.zip > design-patent-design-around-skill.zip.sha256
