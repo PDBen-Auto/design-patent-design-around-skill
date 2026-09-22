@@ -7,6 +7,8 @@
 [![skills.sh](https://skills.sh/b/PDBen-Auto/design-patent-design-around-skill)](https://skills.sh/PDBen-Auto/design-patent-design-around-skill/design-patent-search-and-design-around)
 [![License](https://img.shields.io/badge/license-source--available-59636e?style=flat-square)](LICENSE)
 
+![Design patent pre-screen preview showing visual-relationship analysis, design-around directions, and prototype gates](assets/github-social-preview.png)
+
 面向实体产品团队的外观专利预筛与设计规避 Skill。
 
 它不只告诉你“有哪些相似专利”，而是把产品图片、完整专利图纸、权利人线索、供应链证据、设计方案和样品验证连接成一条可复核的决策链：

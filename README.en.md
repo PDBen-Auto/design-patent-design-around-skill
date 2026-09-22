@@ -7,6 +7,8 @@
 [![skills.sh](https://skills.sh/b/PDBen-Auto/design-patent-design-around-skill)](https://skills.sh/PDBen-Auto/design-patent-design-around-skill/design-patent-search-and-design-around)
 [![License](https://img.shields.io/badge/license-source--available-59636e?style=flat-square)](LICENSE)
 
+![Design patent pre-screen preview showing visual-relationship analysis, design-around directions, and prototype gates](assets/github-social-preview.png)
+
 **A design-patent and industrial-design pre-screening workflow for physical products.** It connects product visuals, complete drawing sets, rights-holder research, risk separation, design-around concepts, supplier questions, prototype gates, and a second-pass collision search.
 
 ## What it solves
