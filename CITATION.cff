@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Design Patent Search And Design Around Skill"
+message: "If this Skill supports your product-risk workflow, please cite the repository and release version."
+type: software
+authors:
+  - family-names: "PDBen-Auto"
+    given-names: "Publisher"
+repository-code: "https://github.com/PDBen-Auto/design-patent-design-around-skill"
+url: "https://pdben-auto.github.io/cases/design-patent.html"
+license: "LicenseRef-Source-Available"
+version: "1.0.1"
+date-released: "2026-09-22"
+keywords:
+  - design patent
+  - industrial design
+  - design around
+  - product development
