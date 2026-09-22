@@ -19,7 +19,9 @@ jobs:
         with:
           python-version: "3.12"
       - name: Validate package
-        run: python tests/test_skill_structure.py
+        run: |
+          python tests/test_skill_structure.py
+          python tests/test_install_smoke.py
       - name: Package installable skill
         shell: bash
         run: |
