@@ -7,6 +7,8 @@
 [![skills.sh](https://skills.sh/b/PDBen-Auto/design-patent-design-around-skill)](https://skills.sh/PDBen-Auto/design-patent-design-around-skill/design-patent-search-and-design-around)
 [![License](https://img.shields.io/badge/license-source--available-59636e?style=flat-square)](LICENSE)
 
+[Licensing and edition policy](LICENSING.md)
+
 ![Design patent pre-screen preview showing visual-relationship analysis, design-around directions, and prototype gates](assets/github-social-preview.png)
 
 面向实体产品团队的外观专利预筛与设计规避 Skill。
