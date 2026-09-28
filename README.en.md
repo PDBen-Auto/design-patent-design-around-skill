@@ -9,6 +9,10 @@
 
 ![Design patent pre-screen preview showing visual-relationship analysis, design-around directions, and prototype gates](assets/github-social-preview.png)
 
+## Start here if the question crosses product research
+
+Use the [Amazon Product Research Agent Skills suite](https://github.com/PDBen-Auto/amazon-product-research-agent-skills) when you also need market sizing, review/VOC, supplier feasibility, or Go/No-Go routing. This repository remains the focused design-right pre-screen and design-around module.
+
 **A design-patent and industrial-design pre-screening workflow for physical products.** It connects product visuals, complete drawing sets, rights-holder research, risk separation, design-around concepts, supplier questions, prototype gates, and a second-pass collision search.
 
 ## What it solves

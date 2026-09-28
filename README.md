@@ -19,6 +19,10 @@
 
 本项目适用于产品经理、工业设计师、研发工程师、供应链团队、跨境电商卖家和准备正式律师审查的项目负责人。
 
+## Start here if the question crosses product research
+
+如果你还需要市场边界、评论/VOC、供应商可行性或 Go/No-Go 立项，请从 [Amazon Product Research Agent Skills suite](https://github.com/PDBen-Auto/amazon-product-research-agent-skills) 开始；本仓库负责外观设计权预筛与设计规避这一条专业路径。
+
 ## 解决什么问题
 
 实体产品的外观风险通常卡在四个断点：
