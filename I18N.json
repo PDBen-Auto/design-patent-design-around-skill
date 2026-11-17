@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "locales": [
+    "zh-CN",
+    "en",
+    "ja",
+    "ko",
+    "de",
+    "fr",
+    "es",
+    "pt"
+  ],
+  "scope": "localized-operating-guides-and-requested-assistant-output",
+  "referenceTranslations": "partial; technical references and example UIs retain original language",
+  "nativeSpeakerReview": false,
+  "baseCommit": "277233c9f301d684c3190d8674f880a45e7d8ed8",
+  "repository": "PDBen-Auto/design-patent-design-around-skill",
+  "skills": [
+    {
+      "name": "design-patent-search-and-design-around",
+      "path": "SKILL.md",
+      "directory": ".",
+      "sourceSha256": "ede52399bfc7f1506b7e70fff2a6d11e8e19af756d47bcd92105456a6fea3a6f",
+      "guides": {
+        "zh-CN": "references/i18n/zh-CN.md",
+        "en": "references/i18n/en.md",
+        "ja": "references/i18n/ja.md",
+        "ko": "references/i18n/ko.md",
+        "de": "references/i18n/de.md",
+        "fr": "references/i18n/fr.md",
+        "es": "references/i18n/es.md",
+        "pt": "references/i18n/pt.md"
+      },
+      "updatedSha256": "73ae14b79914bb7b7ca9bcb14503514bedc3f51f4314596555746e0a826f739e"
+    }
+  ],
+  "documents": {
+    "README.de.md": {
+      "sha256": "647edc688d9527ac42917fa17857bda1165d4f3dbb09be6fc864789697e9bb90",
+      "size": 3192
+    },
+    "README.en.md": {
+      "sha256": "54d538d8329c9040de8920846ff3fe51bd9933e43655e972ba6e038d526d4f53",
+      "size": 5937
+    },
+    "README.es.md": {
+      "sha256": "0927cb8af58a6a39552c4ffb341f6f58f8d07e859a02903c263375ee66fc6b12",
+      "size": 3047
+    },
+    "README.fr.md": {
+      "sha256": "b7907f2dfc3dea4839f0380cb9a2a5f573336daadae0be4998bb2e9fe965a52b",
+      "size": 3213
+    },
+    "README.ja.md": {
+      "sha256": "285af9bad98c2dc28038313c90d13091ace3471b8cbc4cb1392517ea6b9090da",
+      "size": 3052
+    },
+    "README.ko.md": {
+      "sha256": "9aa1c54653db68b7c2a0c994e49530e85a7c1a8ff94827810c8d5abbba7e4ab9",
+      "size": 3101
+    },
+    "README.md": {
+      "sha256": "1accb6e3e2f3996b3b7fb3564ca34dd3b656235e203d1736ff0c4c27333f1c13",
+      "size": 12950
+    },
+    "README.pt.md": {
+      "sha256": "ac3289f7f2f4937419093a7b241a880549da27d03c770c1bdd5093ec4f62cc27",
+      "size": 3037
+    },
+    "README.zh-CN.md": {
+      "sha256": "d1830e695f341a0ad78801bbb05d71ef54a6aceaf2449735a5c226519595fc0e",
+      "size": 2544
+    },
+    "SKILL.md": {
+      "sha256": "73ae14b79914bb7b7ca9bcb14503514bedc3f51f4314596555746e0a826f739e",
+      "size": 15974
+    },
+    "references/i18n/de.md": {
+      "sha256": "d69bd18d920eaeeda4a5c051002249059e2c90ea5a17d398b56a1a8b87409665",
+      "size": 3155
+    },
+    "references/i18n/en.md": {
+      "sha256": "de1f3d8a08c849fc1140727708908f1efed41b5cd6857838572b64134b6186ff",
+      "size": 3128
+    },
+    "references/i18n/es.md": {
+      "sha256": "7675eaf61055eb1d21bbd2719c518f3b589f2023bc6c8826c879acb9228cc93e",
+      "size": 3026
+    },
+    "references/i18n/fr.md": {
+      "sha256": "00917025587d321f63a6a2caddd5844ec19d0f7e947d25628cf8224849be6c64",
+      "size": 3178
+    },
+    "references/i18n/ja.md": {
+      "sha256": "cddce3402873aa5691472297f5199f67842c6babd5fcb43f3a366bd1aa71796f",
+      "size": 2929
+    },
+    "references/i18n/ko.md": {
+      "sha256": "751eba20c9817a4275d5e9e694157e43e99fc305d35aa0cfb25ae4661d3be668",
+      "size": 2992
+    },
+    "references/i18n/pt.md": {
+      "sha256": "3f6c0f421e363e2a0e46b128a415820440822390bb4af2bddbf795838c4db4ed",
+      "size": 3017
+    },
+    "references/i18n/zh-CN.md": {
+      "sha256": "8b58509c297b93f0edcdc1b013c37053c7ba39766cb0457998f6c612bb42ec9c",
+      "size": 2443
+    }
+  }
+}
