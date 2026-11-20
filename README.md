@@ -33,6 +33,8 @@ This localized operating guide covers purpose, prerequisites, inputs, outputs, w
 
 ## Start here if the question crosses product research
 
+If you are starting with only a public product URL and need an illustrated patent candidate list for human review, use [PatentLens Product Search Skill](https://github.com/PDBen-Auto/patentlens-product-search-skill) first. It records discovery routes, original-document links, comparison notes, and unresolved evidence. Return here when the task calls for detailed design-right scope analysis, structural design-around, supplier prototyping, and a second search of the revised concept.
+
 如果你还需要市场边界、评论/VOC、供应商可行性或 Go/No-Go 立项，请从 [Amazon Product Research Agent Skills suite](https://github.com/PDBen-Auto/amazon-product-research-agent-skills) 开始；本仓库负责外观设计权预筛与设计规避这一条专业路径。
 
 ## 解决什么问题
